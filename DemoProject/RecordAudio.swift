@@ -344,10 +344,11 @@ final class RecordAudio: NSObject {
          }
          
          do {
-         try sessionInstance.setActive(true)
-         
+             try sessionInstance.setActive(true)
+             
          } catch {
-         print("error in audio active setting \(error)")
+             print("error in audio active setting \(error)")
+             print("error in audio active setting \(error)")
          }
          
          osErr = AudioUnitInitialize(audioComponent!)
