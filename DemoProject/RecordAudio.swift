@@ -349,6 +349,7 @@ final class RecordAudio: NSObject {
          } catch {
              print("error in audio active setting \(error)")
              print("error in audio active setting \(error)")
+             print("error in audio active setting \(error)")
          }
          
          osErr = AudioUnitInitialize(audioComponent!)
